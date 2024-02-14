@@ -3,10 +3,13 @@ Email = "aan@email.com"
 Password = 12345678
 error_count = 0
 error_limit = 2
+# Lol, I meant retry_count and retry_limit
 
 # Work beginning
 login_or_sign_in = input("What do you want? (L)og in or (S)ign in: ")
 if login_or_sign_in.upper() == "L":
+    # Lol, over-engineering!
+    
     email = input("Email: ")
     if email == Email:
         while error_count < error_limit:
@@ -57,3 +60,5 @@ elif login_or_sign_in.upper() == "S":
         print("Sorry, your email doesn't match with previous one. Please, try again.")
 else:
     print("We doesn't understand your command. Please, try again.")
+
+# See https://github.com/ahnafalnafis/auth-system which was inspired by this project
