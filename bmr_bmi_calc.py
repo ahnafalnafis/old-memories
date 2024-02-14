@@ -1,3 +1,5 @@
+# This was my first code ever :)
+
 name = input("Name?: ")
 print(f"Hi, {name}!")
 
