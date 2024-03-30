@@ -9,3 +9,5 @@ while guess_count < guess_limit:
         break
 else:
     print("Sorry, you failed!")
+
+# Inspired by this, I made another web based game. See https://github.com/ahnafalnafis/guessing-game
